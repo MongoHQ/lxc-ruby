@@ -12,6 +12,8 @@ module LXC
   autoload :Container,            'lxc/container'
   autoload :Status,               'lxc/status'
   autoload :Runner,               'lxc/runner'
+  autoload :LocalRunner,          'lxc/runner/local'
+  autoload :RemoteRunner,         'lxc/runner/remote'
 
   class << self
     include LXC::Shell

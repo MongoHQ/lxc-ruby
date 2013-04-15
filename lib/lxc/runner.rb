@@ -1,7 +1,9 @@
 module LXC
   class Runner
-    def initialize
-      # TOD
+    attr_reader :options
+
+    def initialize(options={})
+      @options = options
     end
 
     def run(command, *args)

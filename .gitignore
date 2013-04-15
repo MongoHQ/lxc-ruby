@@ -23,3 +23,5 @@ test/version_tmp
 tmp
 tmtags
 lib/test.rb
+.vendor
+bin/

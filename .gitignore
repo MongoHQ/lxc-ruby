@@ -8,6 +8,7 @@
 .bundle
 .config
 .yardoc
+.vagrant
 Gemfile.lock
 InstalledFiles
 \#*
@@ -25,3 +26,4 @@ tmtags
 lib/test.rb
 .vendor
 bin/
+shared/
